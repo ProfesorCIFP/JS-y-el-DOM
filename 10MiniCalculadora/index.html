@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini - Calculadora</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/miscript.js"></script>
+</head>
+<body>
+    <h1>Mini - Calculadora</h1>
+    <div class="main-container">
+        <input type="text" name="operando1" id="operando1">
+        <div id="operaciones">
+            <input type="button" value="+" onclick="operar('+')">
+            <input type="button" value="-" onclick="operar('-')">
+            <input type="button" value="x" onclick="operar('*')">
+            <input type="button" value="/" onclick="operar('/')">
+        </div>
+        <input type="text" name="operando2" id="operando2">
+        =
+        <input type="text" name="resultado" id="resultado">
+    </div>
+</body>
+</html>
