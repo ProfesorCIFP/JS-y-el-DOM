@@ -1,0 +1,43 @@
+.main-container {
+    text-align: center;
+}
+
+#caja {
+    border: 1px solid black;
+    height: 40px;
+    margin-bottom: 20px;
+}
+input[value="Rojo"] {
+    background-color: rgb(218, 35, 35);
+}
+
+input[value="Verde"] {
+    background-color: rgb(49, 126, 49);
+}
+
+input[value="Azul"] {
+    background-color: rgb(31, 128, 160);
+}
+
+input[type="button"] {
+    padding: 12px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    color:black;
+}
+
+.red {
+    background-color: rgb(218, 35, 35);
+}
+
+.green {
+    background-color: rgb(49, 126, 49);
+}
+
+.blue {
+    background-color: rgb(31, 128, 160);
+}
