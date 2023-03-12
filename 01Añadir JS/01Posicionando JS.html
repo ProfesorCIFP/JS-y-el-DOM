@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <title>01 - Colocando el JS</title>
         <link rel="stylesheet" href="css/estilos.css">
-        <!-- 02ERROR: Cuando se ejecuta el script todavía no se ha cargado el DOM del documento HTML -->
-        <!-- <script src="js/miScript.js"></script> -->
+        <!-- 01ERROR: Cuando se ejecuta el script todavía no se ha cargado el DOM del documento HTML -->
+        <script src="js/miScript.js"></script>
+
+        SOLUCIÓN 
+        <!-- <script defer src="js/miScript.js"></script> -->
     </head>
     <body>
         <h1>La colocación del Script IMPORTA!!!</h1>
@@ -19,17 +22,20 @@
             Officiis obcaecati reprehenderit harum nam eos illo nobis fugiat iure delectus temporibus, unde, recusandae, similique non natus! In animi dignissimos, voluptatum debitis assumenda delectus inventore, minus expedita dolorum atque enim?
         </p>
         <p>
-            Repositorio GitHub: <span>https://github.com/ProfesorCIFP/JS-y-el-DOM</span>    
+            Repositorio GitHub: <a href="https://github.com/ProfesorCIFP/JS-y-el-DOM  ">GitHub del código</a> 
+        </p>
+        <p>
+            Documentación: <a href="https://es.javascript.info/script-async-defer">Scrips: Async y Defer</a>
         </p>
 
         <script>
-            document.getElementById('parrafo1').style.color = 'red';
+            // document.getElementById('parrafo1').style.color = 'red';
             
-            // 01ERROR: Las MAYÚSCULAS y las minúsculas son importantes !!!
+            // 02ERROR: Las MAYÚSCULAS y las minúsculas son importantes !!!
             // document.GetElementById('parrafo2').style.color = 'blue';
-            document.getElementById('parrafo2').style.color = 'blue';
+            // document.getElementById('parrafo2').style.color = 'blue';
         </script>
         <!-- LLegados a este punto el elemento del DOM al que hace referencia desde JS ya se ha cargado -->
-        <script src="js/miScript.js"></script>
+        <!-- <script src="js/miScript.js"></script> -->
     </body>
 </html>

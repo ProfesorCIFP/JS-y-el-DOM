@@ -1,0 +1,31 @@
+body {
+    background: #a64b00;
+    color: #eee;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#hide-me {
+    height: 200px;
+    background: #241102;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #5e300a;
+    margin-left: 20px;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: #da8643;
+    cursor: pointer;
+}

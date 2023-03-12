@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="ejercicio1.js"></script>
+</head>
+
+<body>
+    <h1>Datos Personales</h1>
+    <hr>
+    <form action="/insertarUsuario.php" method="post">
+        Fecha de Nacimiento:
+        <select name="diaNacimiento" id="diaNacimiento"></select>
+        <select name="mesNacimiento" id="mesNacimiento"></select>
+        <select name="anoNacimiento" id="anoNacimiento"></select><br><br>
+        Escoge un nombre de usuario*: 
+        <input type="text"><br><br>
+        Introduce tu clave*:
+        <input type="password"><br><br>
+        Vueleve a introducir tu clave*:
+        <input type="password"><br><br>
+        <input type="reset" value="Borrar datos">
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

@@ -13,10 +13,10 @@ function inicializarFecha() {
     document.getElementById('mes').value = mes + 1;
     document.getElementById('ano').value = agno;
 }
-// El evento "load" se dispara el evento cuando la página 
+// El evento "load" se dispara cuando la página 
 //  se ha terminado de cargar completamente (imágenes, scripts, etc.)
 window.addEventListener("load", inicializar);
 
 // El evento "DOMContentLoaded" se dispara cuando el DOM ya se halla creado, 
 //  no espera a la carga completa de la página.
-document.addEventListener("DOMContentLoaded", inicializarFecha);
+document.addEventListener("DOMContentLoaded", inicializarFecha);     
